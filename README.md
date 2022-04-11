@@ -1,6 +1,6 @@
 # php-book-app
 This is a simple book site exercise.
-# How to build a Development Enviroment
+# How to build a Development Enviroment M1 chip cannot start docker-compose
 4 step<br>
 `git clone https://github.com/satoru-oka/functional-implementation-training.git`<br>
 `cd functional-implementation-training`<br>
