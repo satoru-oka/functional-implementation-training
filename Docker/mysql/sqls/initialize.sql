@@ -11,7 +11,7 @@ CREATE TABLE `answers` (
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-CREATE TABLE `quesions` (
+CREATE TABLE `questions` (
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
     `question_id` int(10) unsigned NOT NULL,
     `user_id` int(10) unsigned NOT NULL,
