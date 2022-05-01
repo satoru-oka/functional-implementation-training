@@ -30,3 +30,14 @@ CREATE TABLE `users` (
     `modified` datetime NOT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO questions (user_id, body, created, modified)
+VALUES
+  (1, 'test data aaaaaaaaaa', now(), now()),
+  (1, 'test data bbbbbbbbbb', now(), now()),
+  (1, 'test data cccccccccc', now(), now());
+
+INSERT INTO answers (question_id, user_id, body, created, modified)
+VALUES
+  (3, 1, 'test data ddddddddd', now(), now()),
+  (3, 1, 'test data ccccccccc', now(), now());
